@@ -1,0 +1,36 @@
+#img.source-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body
+  { 
+  background-image:url('bg.png');
+  background-color: #041226;
+  background-position: top center; 
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Segoe UI";
+  }
+  
+#title
+{
+  text-align: center;
+  font-size: 30px; 
+}
+
+#subtitle
+{
+  padding: 3px 6px;
+  font-size: 24px; 
+}
+
+#subtitletext
+{
+  padding: 3px 12px;
+}
