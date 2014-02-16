@@ -1,27 +1,64 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css" type="text/css">
-<title>QuickAdmin - No more slow UAC</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="boostyle.css" type="text/css">
+	<![endif]-->
+	<title>QuickAdmin - Bypass UAC, Elevated Shortcut, De-Elevate, so small, such amazing, wow...</title>
 </head>
 <body>
-<div id="title">Welcome to QuickAdmin website</div>
-<p>
-<ul>
-<li>QuickAdmin is a tool that allows you to run a program as administrator without UAC prompt.
-<li>QuickAdmin supports Windows Vista, 7, 8, 8.1, it uses .NET 2.0 and supports .NET 4.0 too.
-<li>QuickAdmin is FREEWARE, so share it to your friend today.
-</ul>
-<p>
-<div id="subtitle">Downloads</div>
-<div id="subtitletext">
-<a href="downloads/QA3.0.rar" style="color: #00FFFF;">QA 3.0 English version</a> <br>
-<a href="downloads/QA3.0cn.rar" style="color: #00FFFF;">QA 3.0 Chinese version</a> <br>
-</div>
-<div id="subtitle">About the author</div>
-<div id="subtitletext">
-Hello, my name is Raymai. I am 16 years old teen from Malaysia.
-You can <a href="https://www.facebook.com/ray.mai.5" style="color: #00FFFF;">find me on Facebook</a>.
-I developed this app with VB.NET and VBS in my holiday. I hope you all will like it.
-</div>
+	<div id="content">
+		<div id="title">QuickAdmin, make UAC perfect</div>
+		<div id="title2">What is QuickAdmin?</div>
+		<div id="text">
+			Have you ever experienced one of the following:
+			<ul>
+			<li>Explorer hangs when UAC is loading after I tried to run certain EXE that required administrator privileges.
+			<li>UAC pops out and asks me did I want to allow the program to run... when I start a program that I'm already familiar.
+			<li>Unable to run a program with elevated privileges in command line.
+			</ul>
+			If you did, then QuickAdmin is the best solution for you.<br>
+			It is a tool that designed to solve these kind of problems.<br>
+			It has been tested countless of times, to confirm that it really works and stable.<br>
+			It works on any Windows version, start from Windows Vista to 8.1, on 32-bit and 64-bit.<br>
+			It uses .NET 2.0 and/or 4.0, included in Windows since Windows Vista.<br>
+			And the most important thing is, it is a FREEWARE.<br>
+		</div>
+		<div id="title2">What's new in version 3.5</div>
+		<div id="text">
+			2014/2/16, QA v3.5
+			<ul>
+			<li>Support multi-user environment
+			<li>Introduced %qa% environment variable
+			<li>Optimized the speed of Elevated Shortcut
+			<li>Optimized the code of Run Program Elevated
+			<li>Fixed the VirtualStore redirection problem
+			<li>Fixed the error caused by insufficient permission to convert shortcut
+			<li>Distrubuted with Tools
+			<ul>
+			<li>VBS association fix (VBSFix.reg)
+			<li>Icon not displaying properly fix (IconCacheReset.bat)
+			</ul>
+			<li>Fixed the "program's window is not activated if executed by Elevated Shortcut"
+			<li>Added Open File Location to Elevated Shortcut context menu
+			<li>Combined two VBS (LnkHelper.vbs and Helper.vbs) as one VBS (Helper.vbs)
+			</ul>
+		</div>
+		<div id="title2">How to use</div>
+		<div id="text">
+			Coming soon...
+		</div>
+		<div id="title2">Downloads</div>
+		<div id="text">
+			<a href="downloads/QA v3.5.zip" style="color: #00FFFF;">QA v3.5 English version</a> <br>
+			<a href="downloads/QA v3.5 CN.zip" style="color: #00FFFF;">QA v3.5 Chinese version</a> <br>
+		</div>
+		<div id="title2">About me</div>
+		<div id="text">
+		Hello, I'm Raymai. I'm born in 1997 and from Malaysia.<br>
+		If you need to find me, just send me an email:<br>
+		<img src="email.png"><p>
+		</div>
+	</div>
 </body>
 </html>
