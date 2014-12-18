@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>QuickAdmin - UAC Whitelist / Elevated Shortcut / Elevate and de-Elevate</title>
+</head>
+<body>
+	<table id="navbar">
+		<tr>
+		<td id="logo"><a href="index.html"></a></td>
+		<td><a href="index.html">Introduction</a></td>
+		<td><a href="features.html">Features</a></td>
+		<td><a href="downloads.html">Downloads</a></td>
+		<td><a href="updatelogs.html" class="selected">Update logs</a></td>
+		<td><a href="contactme.html">Contact me</a></td>
+		</tr>
+	</table>
+	<pre>
+v3.6 (2014/12/13)
+* Added support for command-line usage
+* Added option to execute with method of v3.0 (Special fix for Low RAM users)
+* Added support for running multiple Elevated Shortcuts at the same time
+* Added support of high DPI
+* Fixed the DropHandler issue
+* Fixed the arguments with spaces issue
+* Fixed random "file not found" error
+* Discarded a special fix for console-based application's title bar  (the reason of "file not found" error)
+
+v3.5.1
+* Fixed a bug of code that uninstalls QA v3.1
+
+v3.5 (2014/2/16)
+* Added Open File Location to Elevated Shortcut context menu
+* Added support for multi-user environment
+* Introduced %qa% environment variable
+* Optimized the speed of Elevated Shortcut (Shell.Run -> ShellExecute)
+* Optimized the code of Run Program Elevated (No longer need "to.run" file)
+* Fixed the VirtualStore redirection problem
+* Fixed the error caused by insufficient permission to convert shortcut
+* Distributed with Tools
+.....> VBS association fix (VBSFix.reg)
+.....> Icon not displaying properly fix (IconCacheReset.bat)
+* Fixed the "program's window is not activated if executed by Elevated Shortcut"
+* Combined two VBS (LnkHelper.vbs and Helper.vbs) as one VBS (Helper.vbs)
+
+v3 (2013/8/17)
+* Fixed a lot of bugs
+* Added "Elevated Shortcut" and "Hide Run as Administrator" options
+* Discarded "Add to Send To"
+
+v2.2
+* Added Chinese version
+* "to.run" file uses Unicode now
+
+v2.1
+* Optimized the speed of "Save and Close"
+
+v2
+* Use VBS as executer
+
+v1
+* Use BAT as executer
+* English version only
+* Only have "Run as QuickAdmin" and "Add to Send To" options
+</pre>
+</body>
+</html>
